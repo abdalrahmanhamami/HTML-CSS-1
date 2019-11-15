@@ -39,7 +39,7 @@ svg {
 }
 @keyframes fly {
     from {left:0%;}
-    to {left:100%;}
+    to {left:80%;}
 }
 main {
     width: 100%;
@@ -109,7 +109,7 @@ main {
     padding:0px 0px 0px 0px;
  }
     /* Hover Settings */
-    .grid-item :hover {
+    .grid-item h3:hover {
         background-color: yellowgreen; 
         color: red;
         font-size: 30px;
