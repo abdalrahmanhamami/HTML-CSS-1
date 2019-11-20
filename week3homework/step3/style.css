@@ -1,189 +1,48 @@
-element.style {
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 100px 0px;
 }
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+#cards {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2% 2%;
 }
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+#topmenu { background-color: #01689b;
 }
-* {
-    box-sizing: border-box;
+#top_menu {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
-html[Attributes Style] {
-    -webkit-locale: "nl-NL";
+#top_menu a {
+    color: white;
 }
-user agent stylesheet
-html {
-    display: block;
-    color: -internal-root-color;
+#top_menu li {
+    padding: 0px 0px 0px 30px;
 }
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+#top_menu > li {
+    display: inline;
 }
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+#top_menu > li:first-child {
+    padding: 0px 0px 10px 0px;
+    margin-right: 10%;
+    margin-left: 2%;
 }
-element.style {
+main {
+    background: url("images/minimumlonen-.jpg");
+    background-position: center;
+    background-size: cover;
 }
-header {
-    background-color: #fff;
-    position: relative;
+#div3 {
+    display: flex;
+    justify-content: space-around;
 }
-header {
-    margin-left: -15px;
-    margin-right: -15px;
+#div4 {
+    background-color:white;
 }
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.copyright {
+    color: white;
 }
-* {
-    box-sizing: border-box;
-}
-user agent stylesheet
-:focus {
-    outline: -webkit-focus-ring-color auto 1px;
-}
-user agent stylesheet
-header {
-    display: block;
-}
-body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, table, tr, th, td, form, fieldset, legend, button, .abonneren a.stayInformedBtn, div, object, img {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    list-style: none;
-    text-align: left;
-    vertical-align: top;
-}
-@media (min-width: 1200px)
-body {
-    font-size: 112.5%;
-    -webkit-text-size-adjust: 112.5%;
-}
-body {
-    font-family: "RO Sans",Calibri,sans-serif;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 1.625;
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: #f3f3f3;
-}
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-user agent stylesheet
-html {
-    color: -internal-root-color;
-}
-header:before, header:after {
-    content: " ";
-    display: table;
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-header:after {
-    clear: both;
-}
-header:before, header:after {
-    content: " ";
-    display: table;
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-element.style {
-}
-
-header {
-    background-color: #fff;
-    position: relative;
-}
-header {
-}
-header {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-* {
-    box-sizing: border-box;
-}
-user agent stylesheet
-:focus {
-    outline: -webkit-focus-ring-color auto 1px;
-}
-user agent stylesheet
-header {
-    display: block;
-}
-body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, table, tr, th, td, form, fieldset, legend, button, .abonneren a.stayInformedBtn, div, object, img {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    list-style: none;
-    text-align: left;
-    vertical-align: top;
-}
-@media (min-width: 1200px)
-body {
-    font-size: 112.5%;
-    -webkit-text-size-adjust: 112.5%;
-}
-body {
-    font-family: "RO Sans",Calibri,sans-serif;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 1.625;
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: #f3f3f3;
-}
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-user agent stylesheet
-html {
-    color: -internal-root-color;
-}
-header:before, header:after {
-    content: " ";
-    display: table;
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-header:after {
-    clear: both;
-}
-header:before, header:after {
-    content: " ";
-    display: table;
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+h2 {
+    text-align: center;
 }

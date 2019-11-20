@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Informatie van de Rijksoverheid | Rijksoverheid.nl</title>
-    <!-- <link rel="style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
+        <div id="logo">
             <img data-fallback="images/logo-fallback-ro.svg" src="images/logo-fallback-ro.svg" alt="Rijksoverheid" id="logotype">
         </div>
     </header>
-    <div>
+    <div id="topmenu">
      <h1>
          <nav>
-             <a href="/">Home</a>
-         </nav>
-         <nav>
             <ul id="top_menu">
+                <li>
+                   <a href="/">Home</a>
+                </li>
                 <li>
                     <a href="/actueel">Actueel</a>
                 </li>
@@ -43,7 +44,8 @@
      </h1>
     </div> 
     <main>
-     <div>
+     <div id="div3">
+       <div id="div4">
        <h2>Veel bekeken</h2>
        <ul>
             <li>
@@ -67,14 +69,82 @@
              Antibioticaresistentie</a>
            </li>
        </ul>
-     </div>
-     <div>
+       </div>
+       <div>
          <input type="text" name="trefwoord" title="Type hier uw zoektermen" placeholder="Zoeken">
          <button class="clearField" title="Zoeken" type="button">Zoeken</button>
+        </div>
      </div>
      <p class="copyright showCopyright">
             <span>©</span>Hollandse Hoogte
      </p>
-    </main> 
+    </main>
+    <div>
+     <ul id="cards">
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/belastingen-uitkeringen-en-toeslagen" class="btn btn-info">
+            <h3 class="card-title">Belastingen, uitkeringen en toeslagen</h3>
+            </a>
+            <p class="card-text">Bijstand, AOW, WW-uitkering, Inkomstenbelasting, Wajong ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+           <a href="/onderwerpen/themas/bouwen-en-wonen" class="btn btn-info">
+           <h3 class="card-title">Bouwen en wonen</h3>
+           </a>
+           <p class="card-text">Huurwoning, Huurverhoging, Koopwoning, Energielabel, Bouwregelgeving...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/economie" class="btn btn-info">
+            <h3 class="card-title">Economie</h3>
+            </a>
+            <p class="card-text">Ondernemen en innovatie, Overheidsfinanciën, Duurzame economie, Zelfstandigen zonder personeel ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/internationale-samenwerking" class="btn btn-info">
+            <h3 class="card-title">Internationale samenwerking</h3>
+            </a>
+            <p class="card-text">Europese Unie, Brexit, Mensenrechten, Handelsverdragen EU ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+             <a href="/onderwerpen/themas/klimaat-milieu-en-natuur" class="btn btn-info">
+             <h3 class="card-title">Klimaat, milieu en natuur</h3>
+            </a>
+             <p class="text-card">Gaswinning in Groningen, Klimaatakkoord, Duurzame energie, Dierenwelzijn ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/migratie-en-reizen" class="btn btn-info">
+            <h3 class="card-title">Migratie en reizen</h3>
+            </a>
+            <p class="text-card">Paspoort en identiteitskaart, Nederlandse nationaliteit, Reizen met kinderen ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/onderwijs" class="btn btn-info">
+            <h3 class="card-title">Onderwijs</h3>
+            </a>
+            <p class="text-card">Schoolvakanties, Eindexamens, Hoger onderwijs, Basisonderwijs, Werken in het onderwijs ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+             <a href="/onderwerpen/themas/overheid-en-democratie" class="btn btn-info">
+            <h3 class="card-title">Overheid en democratie</h3>
+            </a>
+            <p class="text-card">Privacy en persoonsgegevens, Gemeenten, Provincies, Koninklijk Huis ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/recht-veiligheid-en-defensie" class="btn btn-info">
+            <h3 class="card-title">Recht, veiligheid en defensie</h3>
+            </a>
+            <p class="text-card">Identiteitsfraude, Terrorisme en nationale veiligheid, Ouderlijk gezag en voogdij ...</p>
+         </li>
+         <li class="card" style="width: 18rem;">
+            <a href="/onderwerpen/themas/verkeer-en-vervoer" class="btn btn-info">
+            <h3 class="card-title">Verkeer en vervoer</h3>
+            </a>
+            <p class="text-card">Rijbewijs, Verkeersregels, Openbaar vervoer, Verkeersveiligheid, Bijzondere voertuigen ...</p>
+         </li>
+     </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
