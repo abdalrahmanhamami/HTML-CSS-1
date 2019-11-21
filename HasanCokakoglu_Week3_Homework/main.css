@@ -26,6 +26,8 @@ ul.container1 {
 }
 .cont2 {
     display: flex;
+    list-style: none;
+    flex-wrap: wrap;
 }
 .spot1 {
     display: flex;
